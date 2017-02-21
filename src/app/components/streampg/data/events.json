@@ -1,0 +1,112 @@
+[
+    {
+        "id": "event1",
+        "name": "Page views (custom)",
+        "description": "",
+        "type": "counter",
+        "default_metric": true,
+        "participation": "disabled",
+        "serialization": "always_record",
+        "polarity": "positive",
+        "visibility": null
+    },
+    {
+        "id": "event2",
+        "name": "Form analysis - abandon",
+        "description": "",
+        "type": "disabled",
+        "default_metric": false,
+        "participation": "disabled",
+        "serialization": "always_record",
+        "polarity": "positive",
+        "visibility": null
+    },
+    {
+        "id": "event3",
+        "name": "Form analysis - success",
+        "description": "",
+        "type": "disabled",
+        "default_metric": false,
+        "participation": "disabled",
+        "serialization": "always_record",
+        "polarity": "positive",
+        "visibility": null
+    },
+    {
+        "id": "event4",
+        "name": "Form analysis - error",
+        "description": "",
+        "type": "disabled",
+        "default_metric": false,
+        "participation": "disabled",
+        "serialization": "always_record",
+        "polarity": "positive",
+        "visibility": null
+    },
+    {
+        "id": "event5",
+        "name": "Deposit amount",
+        "description": "",
+        "type": "currency",
+        "default_metric": false,
+        "participation": "enabled",
+        "serialization": "always_record",
+        "polarity": "positive",
+        "visibility": null
+    },
+    {
+        "id": "event6",
+        "name": "Lifecycle: Aware",
+        "description": "",
+        "type": "counter",
+        "default_metric": false,
+        "participation": "disabled",
+        "serialization": "always_record",
+        "polarity": "positive",
+        "visibility": null
+    },
+    {
+        "id": "event7",
+        "name": "Lifecycle: Engaged",
+        "description": "",
+        "type": "counter",
+        "default_metric": false,
+        "participation": "disabled",
+        "serialization": "always_record",
+        "polarity": "positive",
+        "visibility": null
+    },
+    {
+        "id": "event8",
+        "name": "Lifecycle: Converted",
+        "description": "",
+        "type": "counter",
+        "default_metric": false,
+        "participation": "disabled",
+        "serialization": "always_record",
+        "polarity": "positive",
+        "visibility": null
+    },
+    {
+        "id": "event9",
+        "name": "Lifecycle: Retained",
+        "description": "",
+        "type": "counter",
+        "default_metric": false,
+        "participation": "disabled",
+        "serialization": "always_record",
+        "polarity": "positive",
+        "visibility": null
+    },
+    {
+        "id": "event10",
+        "name": "PID total clicks",
+        "description": "",
+        "type": "counter",
+        "default_metric": false,
+        "participation": "disabled",
+        "serialization": "always_record",
+        "polarity": "positive",
+        "visibility": null
+    }
+]

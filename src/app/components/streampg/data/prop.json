@@ -1,0 +1,112 @@
+[
+    {
+        "id": "prop1",
+        "name": "Site",
+        "enabled": true,
+        "description": "",
+        "pathing_enabled": true,
+        "list_enabled": false,
+        "participation_enabled": true,
+        "case_insensitive": false,
+        "case_insensitive_date_enabled": null
+    },
+    {
+        "id": "prop2",
+        "name": "Site section",
+        "enabled": true,
+        "description": "",
+        "pathing_enabled": true,
+        "list_enabled": false,
+        "participation_enabled": true,
+        "case_insensitive": false,
+        "case_insensitive_date_enabled": null
+    },
+    {
+        "id": "prop3",
+        "name": "Sub section",
+        "enabled": true,
+        "description": "",
+        "pathing_enabled": true,
+        "list_enabled": false,
+        "participation_enabled": true,
+        "case_insensitive": false,
+        "case_insensitive_date_enabled": null
+    },
+    {
+        "id": "prop4",
+        "name": "Sub sub section",
+        "enabled": true,
+        "description": "",
+        "pathing_enabled": true,
+        "list_enabled": false,
+        "participation_enabled": true,
+        "case_insensitive": false,
+        "case_insensitive_date_enabled": null
+    },
+    {
+        "id": "prop5",
+        "name": "Sub sub sub section",
+        "enabled": true,
+        "description": "",
+        "pathing_enabled": true,
+        "list_enabled": false,
+        "participation_enabled": false,
+        "case_insensitive": false,
+        "case_insensitive_date_enabled": null
+    },
+    {
+        "id": "prop6",
+        "name": "Brand",
+        "enabled": true,
+        "description": "",
+        "pathing_enabled": false,
+        "list_enabled": false,
+        "participation_enabled": false,
+        "case_insensitive": false,
+        "case_insensitive_date_enabled": null
+    },
+    {
+        "id": "prop7",
+        "name": "Page type",
+        "enabled": true,
+        "description": "",
+        "pathing_enabled": false,
+        "list_enabled": false,
+        "participation_enabled": false,
+        "case_insensitive": false,
+        "case_insensitive_date_enabled": null
+    },
+    {
+        "id": "prop8",
+        "name": "Pagination",
+        "enabled": true,
+        "description": "",
+        "pathing_enabled": false,
+        "list_enabled": false,
+        "participation_enabled": false,
+        "case_insensitive": false,
+        "case_insensitive_date_enabled": null
+    },
+    {
+        "id": "prop9",
+        "name": "Visitor IP (proc. rule)",
+        "enabled": true,
+        "description": "",
+        "pathing_enabled": false,
+        "list_enabled": false,
+        "participation_enabled": false,
+        "case_insensitive": false,
+        "case_insensitive_date_enabled": null
+    },
+    {
+        "id": "prop10",
+        "name": "Day parting",
+        "enabled": true,
+        "description": "",
+        "pathing_enabled": false,
+        "list_enabled": false,
+        "participation_enabled": false,
+        "case_insensitive": false,
+        "case_insensitive_date_enabled": null
+    }
+]

@@ -1,0 +1,76 @@
+<div class="card-container">
+  <md-card>
+    <md-card-title>Card with title</md-card-title>
+    <md-card-content>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad</p>
+    </md-card-content>
+    <md-card-actions>
+      <button md-icon-button>
+      <md-icon class="md-24">favorite</md-icon>
+    </button>
+      <button md-icon-button>
+      <md-icon class="md-24">star_rate</md-icon>
+    </button>
+      <button md-icon-button>
+      <md-icon class="md-24">thumb_up</md-icon>
+    </button>
+
+    </md-card-actions>
+  </md-card>
+
+  <md-card>
+    <md-card-title>List of names</md-card-title>
+    <md-card-content *ngFor="let person of names">
+      <p>{{ person.name }}</p>
+    </md-card-content>
+
+  </md-card>
+
+  <md-card>
+    <md-card-title>List of names</md-card-title>
+    <md-card-content *ngFor="let person of nameLog$ | async">
+      <p>{{ person.name }}</p>
+    </md-card-content>
+
+  </md-card>
+
+  <md-card>
+    <md-card-title>List of names</md-card-title>
+    <md-card-content>
+      <pre>{{ dataLayer$ | async }}</pre>
+    </md-card-content>
+
+  </md-card>
+  <md-data-table layout-fill ng-if="reportData">
+    <thead>
+      <tr *ngFor="let metric of reportMetrics">
+        <th>{{ metric.name }}</th>
+      </tr>
+    </thead>
+  </md-data-table>
+</div>
+
+<br>
+<button md-raised-button color="primary" (click)="addToDataLayer()">add properties</button>
+<br>
+<br>
+<button md-raised-button color="primary" (click)="addToNames()">PRIMARY RAISED</button>
+<br>
+
+<md-data-table layout-fill>
+  <thead>
+    <tr>
+      <th class="md-text-cell">Material</th>
+      <th>Quantity</th>
+      <th>Unit price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let evar of eVars">
+      <td class="md-text-cell">{{ evar.id }}</td>
+      <td>{{ evar.name }}</td>
+      <td>{{ evar.type }}</td>
+    </tr>
+  </tbody>
+</md-data-table>

@@ -1,0 +1,2512 @@
+[
+    {
+        "name": "External campaign 7 days",
+        "type": "text_string",
+        "id": "trackingcode",
+        "expiration_type": "day",
+        "expiration_custom_days": "7",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Site",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar1",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Site section",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar2",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Sub section",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar3",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Sub sub section",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar4",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Sub sub sub section",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar5",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Brand",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar6",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Experience",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar7",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Visit number",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar8",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Visitor IP (proc. rules)",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar9",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Day parting",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar10",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Search engine keywords",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar11",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Keyword stacking",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar12",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "(unused)",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar13",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Internal search phrase",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar14",
+        "expiration_type": "day",
+        "expiration_custom_days": "14",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Internal search type",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar15",
+        "expiration_type": "day",
+        "expiration_custom_days": "14",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "External campaign 30 days",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar16",
+        "expiration_type": "day",
+        "expiration_custom_days": "30",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "External campaign 60 days",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar17",
+        "expiration_type": "day",
+        "expiration_custom_days": "60",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "External campaign stack",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar18",
+        "expiration_type": "event22",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Combined campaign stack",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar19",
+        "expiration_type": "event22",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Internal campaign stack",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar20",
+        "expiration_type": "event22",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Page name",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar21",
+        "expiration_type": "page_view",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Internal campaigns clicked",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar22",
+        "expiration_type": "day",
+        "expiration_custom_days": "14",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Form name",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar23",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Internal campaigns dismissed",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar24",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Visitor ID",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar25",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "URL (unfiltered)",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar26",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "User-Agent",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar27",
+        "expiration_type": "page_view",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Survey score",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar28",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Days since last visit",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar29",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Item count (search + errors)",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar30",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Application Start - Complete time period",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar31",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Application Complete - First Login time period",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar32",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Login - Application Complete time period",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar33",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "COL customer tracking ID",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar34",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Customer tracking ID",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar35",
+        "expiration_type": "year",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Visitor lifecycle stage",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar36",
+        "expiration_type": "year",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Product options",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar37",
+        "expiration_type": "page_view",
+        "expiration_custom_days": "1",
+        "merchandising_syntax": "product",
+        "allocation_type": "merchandising_last"
+    },
+    {
+        "name": "Self service name",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar38",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Product application ID",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar39",
+        "expiration_type": "page_view",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Customer login status",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar40",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Business account ID",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar41",
+        "expiration_type": "year",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Business authorisation type",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar42",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Page load type",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar43",
+        "expiration_type": "page_view",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Branch search location",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar44",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Registration type name",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar45",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Self service details",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar46",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Customer OTP profile ID",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar47",
+        "expiration_type": "year",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Webseal ID proxy",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar48",
+        "expiration_type": "year",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "(placeholder)",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar49",
+        "expiration_type": "day",
+        "expiration_custom_days": "14",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Customer OTP experience",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar50",
+        "expiration_type": "year",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Transaction amount",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar51",
+        "expiration_type": "page_view",
+        "expiration_custom_days": "1",
+        "merchandising_syntax": "product",
+        "allocation_type": "merchandising_last"
+    },
+    {
+        "name": "Site version",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar52",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Mobile connection type",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar53",
+        "expiration_type": "page_view",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Page interaction name",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar54",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Page module set",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar55",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Social media outbound networks",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar56",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Live chat ID",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar57",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "FAQ search term",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar58",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Phone number",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar59",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Featured content",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar60",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Download file name",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar61",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Tool usage",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar62",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Page language",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar63",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "External account institution",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar64",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "External site name",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar65",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "External ID",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar66",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Kampyle feedback id",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar67",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Home loan attributes",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar68",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 69",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar69",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Target Campaign",
+        "description": "",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar70",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Type(reserverd)",
+        "description": "Cloned to St George Customer Type eVar71, used to capture if \"single\", \"joint\" applications",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar71",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Form complete status",
+        "description": "Captures different bank wow statuses, and will have four different parts \r\n1.)Account Opened status \r\n2.)Profile creation status \r\n3.)Verification status  \r\n4.)Exception code \r\nThis will be captured on  application complete and exception page \r\n",
+        "type": "text_string",
+        "enabled": true,
+        "id": "evar72",
+        "expiration_type": "visit",
+        "expiration_custom_days": "1",
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 73",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar73",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 74",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar74",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 75",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar75",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 76",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar76",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 77",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar77",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 78",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar78",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 79",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar79",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 80",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar80",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 81",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar81",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 82",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar82",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 83",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar83",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 84",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar84",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 85",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar85",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 86",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar86",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 87",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar87",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 88",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar88",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 89",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar89",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 90",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar90",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 91",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar91",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 92",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar92",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 93",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar93",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 94",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar94",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 95",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar95",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 96",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar96",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 97",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar97",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 98",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar98",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 99",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar99",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 100",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar100",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 101",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar101",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 102",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar102",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 103",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar103",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 104",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar104",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 105",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar105",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 106",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar106",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 107",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar107",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 108",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar108",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 109",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar109",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 110",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar110",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 111",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar111",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 112",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar112",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 113",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar113",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 114",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar114",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 115",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar115",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 116",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar116",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 117",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar117",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 118",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar118",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 119",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar119",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 120",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar120",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 121",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar121",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 122",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar122",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 123",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar123",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 124",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar124",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 125",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar125",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 126",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar126",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 127",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar127",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 128",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar128",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 129",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar129",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 130",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar130",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 131",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar131",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 132",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar132",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 133",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar133",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 134",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar134",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 135",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar135",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 136",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar136",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 137",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar137",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 138",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar138",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 139",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar139",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 140",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar140",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 141",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar141",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 142",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar142",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 143",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar143",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 144",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar144",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 145",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar145",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 146",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar146",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 147",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar147",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 148",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar148",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 149",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar149",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 150",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar150",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 151",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar151",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 152",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar152",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 153",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar153",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 154",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar154",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 155",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar155",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 156",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar156",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 157",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar157",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 158",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar158",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 159",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar159",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 160",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar160",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 161",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar161",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 162",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar162",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 163",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar163",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 164",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar164",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 165",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar165",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 166",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar166",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 167",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar167",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 168",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar168",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 169",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar169",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 170",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar170",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 171",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar171",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 172",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar172",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 173",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar173",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 174",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar174",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 175",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar175",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 176",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar176",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 177",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar177",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 178",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar178",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 179",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar179",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 180",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar180",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 181",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar181",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 182",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar182",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 183",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar183",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 184",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar184",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 185",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar185",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 186",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar186",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 187",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar187",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 188",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar188",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 189",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar189",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 190",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar190",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 191",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar191",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 192",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar192",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 193",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar193",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 194",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar194",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 195",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar195",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 196",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar196",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 197",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar197",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 198",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar198",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 199",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar199",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 200",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar200",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 201",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar201",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 202",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar202",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 203",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar203",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 204",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar204",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 205",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar205",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 206",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar206",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 207",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar207",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 208",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar208",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 209",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar209",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 210",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar210",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 211",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar211",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 212",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar212",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 213",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar213",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 214",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar214",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 215",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar215",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 216",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar216",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 217",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar217",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 218",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar218",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 219",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar219",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 220",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar220",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 221",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar221",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 222",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar222",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 223",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar223",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 224",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar224",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 225",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar225",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 226",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar226",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 227",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar227",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 228",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar228",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 229",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar229",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 230",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar230",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 231",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar231",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 232",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar232",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 233",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar233",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 234",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar234",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 235",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar235",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 236",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar236",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 237",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar237",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 238",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar238",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 239",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar239",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 240",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar240",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 241",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar241",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 242",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar242",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 243",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar243",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 244",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar244",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 245",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar245",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 246",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar246",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 247",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar247",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 248",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar248",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 249",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar249",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    },
+    {
+        "name": "Custom eVar 250",
+        "description": "",
+        "type": "text_string",
+        "enabled": false,
+        "id": "evar250",
+        "expiration_type": "visit",
+        "expiration_custom_days": 1,
+        "allocation_type": "most_recent_last"
+    }
+]
